@@ -1,2 +1,2 @@
 # Tipsy
-Tip &amp; Split calculator app for iOS
+Tip &amp; split calculator app for iOS
