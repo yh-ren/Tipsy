@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Home View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="HomeViewController" customModule="Tipsy" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lyt-dl-Ual">
+                                <rect key="frame" x="160" y="585" width="55" height="39"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal" title="Reset">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="vHQ-Oy-GZ9">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Split: 1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0b9-YE-w5I">
+                                <rect key="frame" x="62" y="392" width="117" height="30"/>
+                                <fontDescription key="fontDescription" name="DevanagariSangamMN-Bold" family="Devanagari Sangam MN" pointSize="22"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Total:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PZB-j8-ol1">
+                                <rect key="frame" x="60" y="321" width="149" height="25"/>
+                                <fontDescription key="fontDescription" name="DevanagariSangamMN" family="Devanagari Sangam MN" pointSize="18"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tipsy" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6H3-36-vWF">
+                                <rect key="frame" x="155" y="45" width="65" height="38"/>
+                                <fontDescription key="fontDescription" name="DevanagariSangamMN" family="Devanagari Sangam MN" pointSize="28"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tip &amp; split calculator" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JSr-E1-Pqq">
+                                <rect key="frame" x="109.5" y="85" width="156" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bill" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QkH-ry-PDR">
+                                <rect key="frame" x="62" y="175" width="28" height="30"/>
+                                <fontDescription key="fontDescription" name="DevanagariSangamMN-Bold" family="Devanagari Sangam MN" pointSize="22"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter value here" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="RHT-08-Kis">
+                                <rect key="frame" x="120" y="175" width="199" height="30"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="kmV-rE-4c1"/>
+                                </constraints>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="DevanagariSangamMN" family="Devanagari Sangam MN" pointSize="22"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numbersAndPunctuation" keyboardAppearance="alert" returnKeyType="done"/>
+                                <connections>
+                                    <action selector="billGivenTextFieldChanged:" destination="BYZ-38-t0r" eventType="editingChanged" id="cQd-cp-Wos"/>
+                                    <action selector="billGivenTextFieldChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="ikj-8f-gsA"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="2O4-6a-fdA"/>
+                                </connections>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tip  %" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M9i-dV-ZVc">
+                                <rect key="frame" x="60" y="234" width="101" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="XRg-tM-tZW"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="101" id="eJP-EO-yN4"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="DevanagariSangamMN-Bold" family="Devanagari Sangam MN" pointSize="22"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.12" minValue="0.0" maxValue="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="nd7-it-Njj">
+                                <rect key="frame" x="60" y="272" width="255" height="30"/>
+                                <color key="tintColor" name="Purple"/>
+                                <connections>
+                                    <action selector="tipPctSliderValueChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="fdl-63-TgM"/>
+                                </connections>
+                            </slider>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="1" minValue="1" maxValue="20" translatesAutoresizingMaskIntoConstraints="NO" id="yjD-f1-WiQ">
+                                <rect key="frame" x="60" y="430" width="255" height="30"/>
+                                <color key="tintColor" name="Dark Blue"/>
+                                <connections>
+                                    <action selector="splitSliderValueChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="I8D-9z-cG4"/>
+                                </connections>
+                            </slider>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Each total:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8K5-SP-xms">
+                                <rect key="frame" x="62" y="481" width="184" height="25"/>
+                                <fontDescription key="fontDescription" name="DevanagariSangamMN" family="Devanagari Sangam MN" pointSize="18"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="– Tip $" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HTr-Te-pV1">
+                                <rect key="frame" x="178" y="234" width="141" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="141" id="KJr-XM-tHn"/>
+                                    <constraint firstAttribute="height" constant="30" id="kNp-5m-UDt"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="DevanagariSangamMN" family="Devanagari Sangam MN" pointSize="22"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vvL-XX-MzP">
+                                <rect key="frame" x="159.5" y="570" width="56" height="42"/>
+                                <fontDescription key="fontDescription" name="DevanagariSangamMN" family="Devanagari Sangam MN" pointSize="22"/>
+                                <state key="normal" title="Reset">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="reset:" destination="BYZ-38-t0r" eventType="touchUpInside" id="IMD-pO-1F7"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="yjD-f1-WiQ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="62" id="0mI-r2-KUf"/>
+                            <constraint firstItem="QkH-ry-PDR" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="62" id="1JK-v0-aFC"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="M9i-dV-ZVc" secondAttribute="bottom" constant="403" id="1bA-o1-Dwt"/>
+                            <constraint firstItem="M9i-dV-ZVc" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="214" id="2En-j6-lYL"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="8K5-SP-xms" secondAttribute="bottom" constant="161" id="3jg-Nh-IiX"/>
+                            <constraint firstItem="8K5-SP-xms" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="62" id="4Li-CZ-toR"/>
+                            <constraint firstItem="nd7-it-Njj" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="252" id="6vC-3m-SEF"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="RHT-08-Kis" secondAttribute="trailing" constant="56" id="9Qd-mU-uKN"/>
+                            <constraint firstItem="HTr-Te-pV1" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="M9i-dV-ZVc" secondAttribute="trailing" constant="8" symbolic="YES" id="B2U-JO-9V4"/>
+                            <constraint firstItem="PZB-j8-ol1" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="60" id="B59-QD-B7P"/>
+                            <constraint firstItem="JSr-E1-Pqq" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="65" id="DIX-Qr-olY"/>
+                            <constraint firstItem="nd7-it-Njj" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="Dwt-uP-5dR"/>
+                            <constraint firstItem="6H3-36-vWF" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="25" id="Exb-pr-ywb"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="8K5-SP-xms" secondAttribute="trailing" constant="129" id="FJo-d0-bBl"/>
+                            <constraint firstItem="M9i-dV-ZVc" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="60" id="GZ9-Bd-tSR"/>
+                            <constraint firstItem="nd7-it-Njj" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="62" id="Mah-R6-qCl"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="HTr-Te-pV1" secondAttribute="bottom" constant="403" id="Nt6-T9-XBw"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="PZB-j8-ol1" secondAttribute="trailing" constant="166" id="Pqy-as-J1k"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="vvL-XX-MzP" secondAttribute="bottom" constant="55" id="a0d-m1-NP2"/>
+                            <constraint firstItem="0b9-YE-w5I" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="372" id="aaM-YE-2SB"/>
+                            <constraint firstItem="0b9-YE-w5I" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="62" id="cHd-N8-hf1"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="PZB-j8-ol1" secondAttribute="bottom" constant="321" id="eob-A8-csy"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="0b9-YE-w5I" secondAttribute="trailing" constant="196" id="fhF-Bj-ZiS"/>
+                            <constraint firstItem="yjD-f1-WiQ" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="fuF-rD-QUC"/>
+                            <constraint firstItem="Lyt-dl-Ual" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="gwo-kv-mt1"/>
+                            <constraint firstItem="PZB-j8-ol1" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="301" id="k3D-bb-xBR"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="yjD-f1-WiQ" secondAttribute="bottom" constant="208" id="md6-D3-pB4"/>
+                            <constraint firstItem="vvL-XX-MzP" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="mdZ-0P-HHK"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="nd7-it-Njj" secondAttribute="bottom" constant="366" id="nye-yW-PHA"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="0b9-YE-w5I" secondAttribute="bottom" constant="245" id="oeX-di-qRI"/>
+                            <constraint firstItem="8K5-SP-xms" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="461" id="phG-JB-5V4"/>
+                            <constraint firstAttribute="trailing" secondItem="HTr-Te-pV1" secondAttribute="trailing" constant="56" id="pyg-pm-1Dm"/>
+                            <constraint firstItem="yjD-f1-WiQ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="410" id="qkM-ED-qOy"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="QkH-ry-PDR" secondAttribute="trailing" constant="285" id="rA3-bG-Kaw"/>
+                            <constraint firstItem="RHT-08-Kis" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="155" id="s5g-qi-Ef2"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Lyt-dl-Ual" secondAttribute="bottom" constant="43" id="vr2-XK-py8"/>
+                            <constraint firstItem="QkH-ry-PDR" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="155" id="wQI-7u-2yW"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="yjD-f1-WiQ" secondAttribute="trailing" constant="62" id="wnh-nl-nV8"/>
+                            <constraint firstItem="JSr-E1-Pqq" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="xiJ-oi-Ciq"/>
+                            <constraint firstItem="6H3-36-vWF" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="xj1-Wg-mCx"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="nd7-it-Njj" secondAttribute="trailing" constant="62" id="yPN-ux-IEJ"/>
+                            <constraint firstItem="RHT-08-Kis" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="120" id="zFF-sx-tKE"/>
+                            <constraint firstItem="HTr-Te-pV1" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="214" id="zwF-D4-lb9"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="givenBillTextField" destination="RHT-08-Kis" id="2Tm-7J-eo6"/>
+                        <outlet property="splitNumberLabel" destination="0b9-YE-w5I" id="0tq-VW-SCi"/>
+                        <outlet property="splitSlider" destination="yjD-f1-WiQ" id="z6g-XZ-COR"/>
+                        <outlet property="splitTotalLabel" destination="8K5-SP-xms" id="87K-jN-C0a"/>
+                        <outlet property="tipPctLabel" destination="M9i-dV-ZVc" id="T0q-sj-Htf"/>
+                        <outlet property="tipPctSlider" destination="nd7-it-Njj" id="8I3-5I-hcK"/>
+                        <outlet property="tipTotalLabel" destination="HTr-Te-pV1" id="ZM0-ma-c1z"/>
+                        <outlet property="totalNoSplitLabel" destination="PZB-j8-ol1" id="7Ys-mU-fhw"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="117.39130434782609" y="117.39130434782609"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="background" width="694" height="1233"/>
+        <namedColor name="Dark Blue">
+            <color red="0.3411764705882353" green="0.41960784313725491" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Purple">
+            <color red="0.67843137254901964" green="0.40000000000000002" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>
